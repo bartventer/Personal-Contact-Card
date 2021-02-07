@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Bart Venter</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="static/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img class='profile-image'src="static/images/avatar.jpg" alt="" /></span>
+							<h1>Bart Venter</h1>
+							<p>Tech Enthusiast | Chartered Accountant | London, UK</p>
+						</header>
+
+						<footer>
+							<ul class="icons">
+								<li><a href="https://github.com/bartventer" class="icon brands fa-github">Github</a></li>
+								<li><a href="https://za.linkedin.com/in/bart-venter-ca-sa-606bb0141" class="icon brands  fa-linkedin-in">LinkedIn</a></li>
+								<li><a href="https://www.facebook.com/bart.venter.12/" class="icon brands fa-facebook-f">Facebook</a></li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li class="copyrightText">&copy; Bart Venter</li><li>Design: <a href="http://html5up.net">HTML5 UP</a> </li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+
+				function updateFooterDate(){
+					let copyrightText = document.querySelector(".copyrightText").innerText;
+					const date = new Date().getFullYear();
+					document.querySelector(".copyrightText").innerText = copyrightText + " " + date;
+				}
+				updateFooterDate();
+
+			</script>
+
+	</body>
+</html>
