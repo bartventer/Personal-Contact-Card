@@ -1,2 +1,2 @@
-#My Personal Business Card
-* Link here
+# My Personal Businnes Card
+* https://bartventer.github.io/Personal-Contact-Card/
